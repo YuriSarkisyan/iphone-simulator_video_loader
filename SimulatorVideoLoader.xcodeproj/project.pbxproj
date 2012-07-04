@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15B5AC3415A42FD800C88B12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B5AC3315A42FD700C88B12 /* UIKit.framework */; };
+		15B5AC3615A42FD800C88B12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B5AC3515A42FD800C88B12 /* Foundation.framework */; };
+		15B5AC3815A42FD800C88B12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B5AC3715A42FD800C88B12 /* CoreGraphics.framework */; };
+		15B5AC3E15A42FD800C88B12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15B5AC3C15A42FD800C88B12 /* InfoPlist.strings */; };
+		15B5AC4015A42FD800C88B12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B5AC3F15A42FD800C88B12 /* main.m */; };
+		15B5AC4415A42FD800C88B12 /* SVLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B5AC4315A42FD800C88B12 /* SVLAppDelegate.m */; };
+		15B5AC4715A42FD800C88B12 /* SVLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B5AC4615A42FD800C88B12 /* SVLViewController.m */; };
+		15B5AC4A15A42FD800C88B12 /* SVLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15B5AC4815A42FD800C88B12 /* SVLViewController.xib */; };
+		15B5AC5415A433C900C88B12 /* videos in Resources */ = {isa = PBXBuildFile; fileRef = 15B5AC5315A433C900C88B12 /* videos */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15B5AC2F15A42FD700C88B12 /* SimulatorVideoLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimulatorVideoLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15B5AC3315A42FD700C88B12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		15B5AC3515A42FD800C88B12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15B5AC3715A42FD800C88B12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		15B5AC3B15A42FD800C88B12 /* SimulatorVideoLoader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimulatorVideoLoader-Info.plist"; sourceTree = "<group>"; };
+		15B5AC3D15A42FD800C88B12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15B5AC3F15A42FD800C88B12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15B5AC4115A42FD800C88B12 /* SimulatorVideoLoader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimulatorVideoLoader-Prefix.pch"; sourceTree = "<group>"; };
+		15B5AC4215A42FD800C88B12 /* SVLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVLAppDelegate.h; sourceTree = "<group>"; };
+		15B5AC4315A42FD800C88B12 /* SVLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVLAppDelegate.m; sourceTree = "<group>"; };
+		15B5AC4515A42FD800C88B12 /* SVLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVLViewController.h; sourceTree = "<group>"; };
+		15B5AC4615A42FD800C88B12 /* SVLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVLViewController.m; sourceTree = "<group>"; };
+		15B5AC4915A42FD800C88B12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SVLViewController.xib; sourceTree = "<group>"; };
+		15B5AC5315A433C900C88B12 /* videos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = videos; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15B5AC2C15A42FD700C88B12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B5AC3415A42FD800C88B12 /* UIKit.framework in Frameworks */,
+				15B5AC3615A42FD800C88B12 /* Foundation.framework in Frameworks */,
+				15B5AC3815A42FD800C88B12 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15B5AC2415A42FD700C88B12 = {
+			isa = PBXGroup;
+			children = (
+				15B5AC3915A42FD800C88B12 /* SimulatorVideoLoader */,
+				15B5AC3215A42FD700C88B12 /* Frameworks */,
+				15B5AC3015A42FD700C88B12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15B5AC3015A42FD700C88B12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15B5AC2F15A42FD700C88B12 /* SimulatorVideoLoader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15B5AC3215A42FD700C88B12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15B5AC3315A42FD700C88B12 /* UIKit.framework */,
+				15B5AC3515A42FD800C88B12 /* Foundation.framework */,
+				15B5AC3715A42FD800C88B12 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15B5AC3915A42FD800C88B12 /* SimulatorVideoLoader */ = {
+			isa = PBXGroup;
+			children = (
+				15B5AC4215A42FD800C88B12 /* SVLAppDelegate.h */,
+				15B5AC4315A42FD800C88B12 /* SVLAppDelegate.m */,
+				15B5AC4515A42FD800C88B12 /* SVLViewController.h */,
+				15B5AC4615A42FD800C88B12 /* SVLViewController.m */,
+				15B5AC4815A42FD800C88B12 /* SVLViewController.xib */,
+				15B5AC3A15A42FD800C88B12 /* Supporting Files */,
+			);
+			path = SimulatorVideoLoader;
+			sourceTree = "<group>";
+		};
+		15B5AC3A15A42FD800C88B12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15B5AC5315A433C900C88B12 /* videos */,
+				15B5AC3B15A42FD800C88B12 /* SimulatorVideoLoader-Info.plist */,
+				15B5AC3C15A42FD800C88B12 /* InfoPlist.strings */,
+				15B5AC3F15A42FD800C88B12 /* main.m */,
+				15B5AC4115A42FD800C88B12 /* SimulatorVideoLoader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15B5AC2E15A42FD700C88B12 /* SimulatorVideoLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15B5AC5015A42FD800C88B12 /* Build configuration list for PBXNativeTarget "SimulatorVideoLoader" */;
+			buildPhases = (
+				15B5AC2B15A42FD700C88B12 /* Sources */,
+				15B5AC2C15A42FD700C88B12 /* Frameworks */,
+				15B5AC2D15A42FD700C88B12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimulatorVideoLoader;
+			productName = SimulatorVideoLoader;
+			productReference = 15B5AC2F15A42FD700C88B12 /* SimulatorVideoLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15B5AC2615A42FD700C88B12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SVL;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "I-SYS";
+			};
+			buildConfigurationList = 15B5AC2915A42FD700C88B12 /* Build configuration list for PBXProject "SimulatorVideoLoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 15B5AC2415A42FD700C88B12;
+			productRefGroup = 15B5AC3015A42FD700C88B12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15B5AC2E15A42FD700C88B12 /* SimulatorVideoLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15B5AC2D15A42FD700C88B12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B5AC3E15A42FD800C88B12 /* InfoPlist.strings in Resources */,
+				15B5AC4A15A42FD800C88B12 /* SVLViewController.xib in Resources */,
+				15B5AC5415A433C900C88B12 /* videos in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15B5AC2B15A42FD700C88B12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B5AC4015A42FD800C88B12 /* main.m in Sources */,
+				15B5AC4415A42FD800C88B12 /* SVLAppDelegate.m in Sources */,
+				15B5AC4715A42FD800C88B12 /* SVLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15B5AC3C15A42FD800C88B12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15B5AC3D15A42FD800C88B12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		15B5AC4815A42FD800C88B12 /* SVLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15B5AC4915A42FD800C88B12 /* en */,
+			);
+			name = SVLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15B5AC4E15A42FD800C88B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15B5AC4F15A42FD800C88B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15B5AC5115A42FD800C88B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimulatorVideoLoader/SimulatorVideoLoader-Prefix.pch";
+				INFOPLIST_FILE = "SimulatorVideoLoader/SimulatorVideoLoader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		15B5AC5215A42FD800C88B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimulatorVideoLoader/SimulatorVideoLoader-Prefix.pch";
+				INFOPLIST_FILE = "SimulatorVideoLoader/SimulatorVideoLoader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15B5AC2915A42FD700C88B12 /* Build configuration list for PBXProject "SimulatorVideoLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15B5AC4E15A42FD800C88B12 /* Debug */,
+				15B5AC4F15A42FD800C88B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15B5AC5015A42FD800C88B12 /* Build configuration list for PBXNativeTarget "SimulatorVideoLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15B5AC5115A42FD800C88B12 /* Debug */,
+				15B5AC5215A42FD800C88B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15B5AC2615A42FD700C88B12 /* Project object */;
+}
